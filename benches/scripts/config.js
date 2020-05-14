@@ -33,7 +33,7 @@ async function generateConfig(benchPath, options) {
 	}
 
 	config.benchmarks = [
-		{
+		/*{
 			name,
 			url,
 			packageVersions: {
@@ -42,24 +42,28 @@ async function generateConfig(benchPath, options) {
 					preact: '^8.5.3'
 				}
 			}
-		},
-		{
+		},*/
+		/* {
 			name,
 			url,
 			packageVersions: {
-				label: 'preact-master',
-				dependencies: {
-					preact: 'github:preactjs/preact#master'
+				label: 'master',
+				dependencies: {					
+					react: 'file:' + repoRoot() + '/node_modules/react',
+					'@payfit/midnight':
+						'file:' + repoRoot() + '/node_modules/@payfit/midnight'
 				}
 			}
-		},
+		}, */
 		{
 			name,
 			url,
 			packageVersions: {
-				label: 'preact-local',
+				label: 'local',
 				dependencies: {
-					preact: 'file:' + repoRoot()
+					react: 'file:' + repoRoot() + '/node_modules/react',
+					'@payfit/midnight':
+						'file:' + repoRoot() + '/node_modules/@payfit/midnight'
 				}
 			}
 		}

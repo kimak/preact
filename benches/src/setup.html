@@ -1,0 +1,18 @@
+<html>
+	<body>
+		<div id="root"></div>
+		<script type="module">
+			import * as bench from '/bench.js';
+
+			const root = document.getElementById('root');
+
+			let result;
+
+			bench.start();
+			for (let i = 0; i < 100; i++) {
+				console.log('ok ok');
+			}
+			bench.stop();
+		</script>
+	</body>
+</html>

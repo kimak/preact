@@ -1,0 +1,11 @@
+{
+	"extends": "@payfit/tsconfig-front/tsconfig.json",
+	"compilerOptions": {
+		"baseUrl": ".",
+		"rootDir": "src",
+		"outDir": "result",
+		"declarationDir": "result"
+	},
+	"include": ["./src/app/**/*"],
+	"exclude": ["node_modules", "result"]
+}

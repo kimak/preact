@@ -6,15 +6,29 @@
 	"scripts": {
 		"start": "node ./scripts config text_update.html && tach --config dist/text_update.config.json --manual",
 		"bench": "node ./scripts bench",
-		"help": "node ./scripts --help"
+		"bench:preact": "node ./scripts bench",
+		"help": "node ./scripts --help",
+		"box": "tach ./src/box.html",
+		"setup_": "tach ./src/setup.html --manual",
+		"setup": "node ./scripts config setup.html && tach --config dist/setup.config.json",
+		"index": "node ./scripts config ../build/index.html && tach --config dist/index.config.json",
+		"bundle": "pfx-bundler build bundler.config.js",
+		"dev": "pfx-bundler start bundler.config.js"
 	},
 	"license": "MIT",
 	"dependencies": {
-		"afterframe": "^1.0.1"
+		"afterframe": "^1.0.1",
+		"react": "^16.13.1",
+		"react-dom": "^16.13.1"
 	},
 	"devDependencies": {
+		"@payfit/tsconfig-front": "^1.1.2",
+		"@payfit/pfx-bundler": "^0.14.2",
+		"typescript": "^3.8.3",
 		"globby": "^11.0.0",
 		"sade": "^1.7.3",
-		"tachometer": "^0.4.18"
+		"tachometer": "^0.4.18",
+		"@types/react": "16.9.19",
+		"@types/react-dom": "16.9.5"
 	}
 }
