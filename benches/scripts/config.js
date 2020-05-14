@@ -43,18 +43,18 @@ async function generateConfig(benchPath, options) {
 				}
 			}
 		},*/
-		/* {
+		{
 			name,
 			url,
 			packageVersions: {
 				label: 'master',
-				dependencies: {					
+				dependencies: {
 					react: 'file:' + repoRoot() + '/node_modules/react',
 					'@payfit/midnight':
 						'file:' + repoRoot() + '/node_modules/@payfit/midnight'
 				}
 			}
-		}, */
+		},
 		{
 			name,
 			url,

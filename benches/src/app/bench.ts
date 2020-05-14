@@ -9,7 +9,7 @@ async function stop() {
 	const response = {
 		millis: runtime
 	};
-	fetch('http://127.0.0.1:8080/submitResults', {
+	fetch('/submitResults', {
 		method: 'POST',
 		headers: {
 			'Content-Type': 'application/json'

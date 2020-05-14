@@ -16,7 +16,7 @@
 					const e = performance.now() - s;
 					console.log('benchmark runtime', e, 'ms');
 					const n = { millis: e };
-					fetch('http://127.0.0.1:8080/submitResults', {
+					fetch('/submitResults', {
 						method: 'POST',
 						headers: { 'Content-Type': 'application/json' },
 						body: JSON.stringify(n)
