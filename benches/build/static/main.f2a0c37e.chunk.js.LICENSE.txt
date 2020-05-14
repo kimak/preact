@@ -1,0 +1,29 @@
+/*! ./bench */
+
+/*! /Users/mickaeldumand/opensource/preact/benches/node_modules/react-dev-utils/webpackHotDevClient.js */
+
+/*! /Users/mickaeldumand/opensource/preact/benches/src/app/index.tsx */
+
+/*! @payfit/midnight */
+
+/*! exports provided: bench */
+
+/*! no exports provided */
+
+/*! no static exports found */
+
+/*! react */
+
+/*! react-dom */
+
+/*!**************************!*\
+  !*** ./src/app/bench.ts ***!
+  \**************************/
+
+/*!***************************!*\
+  !*** ./src/app/index.tsx ***!
+  \***************************/
+
+/*!***************************************************************************************!*\
+  !*** multi ./node_modules/react-dev-utils/webpackHotDevClient.js ./src/app/index.tsx ***!
+  \***************************************************************************************/
